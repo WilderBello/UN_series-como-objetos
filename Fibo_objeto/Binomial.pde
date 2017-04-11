@@ -7,22 +7,10 @@ class Binomial {
     setHue(h);
   }
 
-  void setHeight(int h) {
-    yPos = h;
-  }
-
-  int height() {
-    return yPos;
-  }
-
   void setHue(color h) {
     hue = h;
   }
 
-  color hue() {
-    return hue;
-  }
-  
   int fact( int  num ){
     int mult = 1;
   
