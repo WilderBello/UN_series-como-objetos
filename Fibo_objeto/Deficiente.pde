@@ -6,22 +6,10 @@ class Deficiente {
     setHue(h);
   }
 
-  void setHeight(int h) {
-    yPos = h;
-  }
-
-  int height() {
-    return yPos;
-  }
-
   void setHue(color h) {
     hue = h;
   }
-
-  color hue() {
-    return hue;
-  }
-
+  
  int deficiente(int n){
   int suma=0;
   for (int i=1; i<n; i++){
